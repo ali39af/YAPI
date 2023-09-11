@@ -1,0 +1,19 @@
+# TO DO URL Blocker Not Wrok! Security Problem
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
+
+# Block access to /router/* URLs
+RewriteCond %{REQUEST_URI} ^/router/ [NC]
+RewriteRule ^ - [F]
+
+# Set Error 403
+ErrorDocument 403 /index.php?error=403
+
+# Set Error 404
+ErrorDocument 404 /index.php?error=404
+
+# Set Error 500
+ErrorDocument 500 /index.php?error=500

@@ -1,0 +1,31 @@
+.card {
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card-header {
+    border-radius: 20px;
+}
+
+.card-header button {
+    margin-top: 8px;
+}
+
+.card-body {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.error-code {
+    text-align: center;
+    font-size: 60px;
+}
+
+.p-error-code {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.error {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}

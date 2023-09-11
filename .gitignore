@@ -1,0 +1,4 @@
+# Remove MariaDB Folder
+DataBase/
+# Remove Docker Compose Up File
+docker-compose.yml
