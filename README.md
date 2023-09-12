@@ -2,6 +2,9 @@
 
 YAPI is a versatile API designed to serve as a foundation for various web and mobile applications. It offers a range of functionalities for checking website status, managing data, handling redirects, license verification, and app updates.
 
+![Image Preview](https://raw.githubusercontent.com/ali39af/YAPI/main/Screenshot1.png)
+![Image Preview](https://raw.githubusercontent.com/ali39af/YDS/main/Screenshot2.png)
+
 ## API Endpoints
 
 ### Check Website Status
@@ -77,7 +80,3 @@ YAPI is a versatile API designed to serve as a foundation for various web and mo
   - `Redirecting to the target download location`
   - `{"status":"202","message":"Download is false in this update!"}`
   - `{"status":"404","message":"Update not found!"}`
-
-## Visit Our Website
-
-For more information and updates, please visit our website: [YServices.ir](https://yservices.ir)
